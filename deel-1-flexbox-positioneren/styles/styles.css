@@ -1,1 +1,101 @@
-/*Schrijf hier jouw CSS*/
+body{
+    box-sizing: border-box;
+    padding:0;
+
+}
+
+/*opdracht 1*/
+
+.opdracht-1a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Opdracht 2 */
+
+.opdracht-2a {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-2a1, .item-2a2,.item-2a3{
+    flex-basis: 300px
+}
+
+/* Opdracht 3 */
+
+.opdracht-3a {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3a1 {
+    align-self: flex-start;
+}
+
+.item-3a2 {
+    align-self: center;
+}
+
+.item-3a3 {
+    align-self: flex-end;
+}
+
+/* Opdracht 4 */
+
+.opdracht-4a {
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+/* Opdracht 5 */
+
+.opdracht-5a {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-5a1{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+.container-5a2{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.container-5a3{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.item-5a31{
+    align-self: flex-end;
+}
+
+.item-5a21,.item-5a22{
+    align-self: center;
+}
+
+
+/* Einde opdracht deel 1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
