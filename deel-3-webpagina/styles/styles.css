@@ -1,1 +1,74 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+.html {
+    box-sizing: border-box;
+    padding:0;
+}
+
+body{
+
+    font-family: 'Rubik', sans-serif;
+    background-color: #F2F3D9;
+    height: 1000px;
+}
+
+
+h1, h3{
+    text-align: center;
+}
+
+.blokken{
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.blok1, .blok2, .blok3{
+    display: flex;
+    background-color:#C16E70;
+    flex: 0 0 280px;
+    width: 350px;
+    border-radius: 5px;
+    margin-right: 50px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.tekst1, .tekst2, .tekst3 {
+    display: flex;
+    text-align: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    font-size: small
+    }
+
+.flex-container-6{
+    display: flex;
+    color: white;
+    background-color:#030027;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-start;
+    flex-basis: 3000px;
+    align-items: center;
+    margin-left: 40px;
+    }
+
+.navlijst{
+    display:flex;
+    justify-content: flex-end;
+    flex: 0 1 3000px;
+    list-style: none;
+
+}
+
+.nav1, .nav2, .nav3, .nav4 {
+    margin-right: 40px;
+    font-size: small;
+}
